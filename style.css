@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-family: "PT Sans", sans-serif;
   text-decoration: none;
   list-style: none;
@@ -11,9 +11,35 @@
   /* border: 1px solid red; */
 }
 
-html {
+html,
+body {
   font-size: 62.5%;
+  background-color: #a4ac96;
 }
 img {
   border-radius: 3px;
+}
+
+/* Navbar  */
+.navbar {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  position: sticky;
+  top: 0;
+  margin-bottom: 3.2rem;
+  padding: 1rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+}
+.hamburger {
+  font-size: 3.2rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
