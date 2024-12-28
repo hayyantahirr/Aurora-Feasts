@@ -152,14 +152,30 @@ img {
   .description {
     width: 100%;
   }
-  .perks{
+  .perks {
     flex-direction: column;
     align-items: center;
-    
   }
-  .perk{
+  .perk {
     width: 80%;
-    
   }
+}
+
+/* menu button  */
+.btn-menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.btn-menu {
+  margin-top: 20px;
+  width: 15%;
+  height: 50px;
+  background-color: #149f39;
+  font-weight: bold;
+  color: #ffffff;
+  border: transparent;
+  font-size: 2rem;
 }
 /* grid section of pics  */
