@@ -161,37 +161,7 @@ img {
   border: transparent;
   font-size: 3rem;
 }
-@media (max-width: 768px) {
-  .hero-sec {
-    flex-direction: column;
-  }
-  .hero-img-div {
-    display: flex;
-    justify-content: center;
-  }
-  .hero-img {
-    width: 80%;
-    /* display: flex; */
-    /* justify-content: center; */
-  }
-  .tagline {
-    width: 100%;
-  }
 
-  .description {
-    width: 100%;
-  }
-  .perks {
-    flex-direction: column;
-    align-items: center;
-  }
-  .perk {
-    width: 80%;
-  }
-  .btn-menu {
-    width: 50%;
-  }
-}
 /* grid section of pics  */
 .grid {
   display: grid;
@@ -238,11 +208,97 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* background-color: ; */
   background-color: #f0f3b380;
   /* backdrop-filter: blur(500000px); */
 }
+.footer-container {
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+  /* max-width: 1200px; */
+  /* border: 1px solid black; */
+}
 .footer-logo {
-  width: 25%;
+  width: 18%;
+}
+.main-links {
+  margin: 20px 30px;
+}
+.main {
+  text-align: left;
+  opacity: 0.7;
+}
+.main-head {
+  font-size: 1.75rem;
+  padding: 5px;
+}
+.main-link {
+  font-size: 1.25rem;
+  padding: 5px;
+}
+.join-div {
+  width: 30%;
+  margin: 20px 30px;
+}
+.join {
+  font-size: 2rem;
+  padding: 5px;
+  opacity: 0.7;
+}
+.join-input {
+  width: 100%;
+  height: 20px;
+  border: transparent;
+
+  /* border-bottom: 1px solid black; */
+  padding: 5px;
+}
+.join-head{
+  margin-top: 10px;
+  font-size: 1.75rem;
+  padding: 5px;
+  opacity: 0.7;
+}
+.social{
+  display: flex;
+  /* justify-content : left; */
+  align-items: center;
+  /* margin-top: 10px; */
+  gap: 10px;
+  opacity: 0.7;
+  font-size: 1.75rem;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  .hero-sec {
+    flex-direction: column;
+  }
+  .hero-img-div {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-img {
+    width: 80%;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+  .tagline {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+  }
+  .perks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .perk {
+    width: 80%;
+  }
+  .btn-menu {
+    width: 50%;
+  }
 }
